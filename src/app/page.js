@@ -1,9 +1,10 @@
-import React from "react";
 
 const HomePage = () => {
   return (
     <div>
-      <h2 className="text-xl font-semibold">This is HomepAge </h2>
+      <h2 className="text-2xl text-center mt-8 font-semibold">
+        This is Homepage
+      </h2>
     </div>
   );
 };
