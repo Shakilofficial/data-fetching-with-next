@@ -2,19 +2,19 @@
   "posts": [
     {
       "id": 1,
-      "title": "Top 5 Destinations for a Serene Winter Escape",
+      "title": "Top Destinations for a Serene Winter Escape",
       "description": "Seeking tranquility amidst breathtaking landscapes? Explore these peaceful retreats for a rejuvenating winter getaway.",
-      "likesCount": 125
+      "likesCount": 135
     },
     {
       "id": 2,
       "title": "The Art of Minimalist Photography: Capturing Essence in Simplicity",
       "description": "Discover the power of minimalism in photography to create stunning images that evoke emotion and capture the essence of a scene.",
-      "likesCount": 100
+      "likesCount": 110
     },
     {
       "id": 3,
-      "title": "5 Tips for Crafting Engaging Social Media Posts that Captivate Your Audience",
+      "title": "Tips for Crafting Engaging Social Media Posts that Captivate Your Audience",
       "description": "Learn how to craft compelling social media content that resonates with your followers and drives engagement.",
       "likesCount": 75
     },

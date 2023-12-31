@@ -1,8 +1,8 @@
+import Link from "next/link";
+
 const PostPage = async () => {
   const res = await fetch("http://localhost:5000/posts", {
-    next: {
-      revalidate: 5,
-    },
+    cache: "no-store",
   });
   const posts = await res.json();
   return (
@@ -13,16 +13,18 @@ const PostPage = async () => {
       {posts.map((post) => (
         <div
           key={post.id}
-          className="card w-[70%] mx-auto bg-gray-100 shadow-xl my-8"
+          className="card w-[70%] mx-auto bg-gray-100 shadow-xl my-5"
         >
           <div className="card-body">
             <h2 className="card-title">{post.title}</h2>
             <p>{post.description}</p>
             <p>Likes: {post.likesCount}</p>
             <div className="card-actions justify-center">
-              <button className="btn btn-sm text-white btn-accent text-center">
-                See More
-              </button>
+              <Link href={`/posts/${post.id}`}>
+                <button className="btn btn-sm text-white btn-accent text-center">
+                  See More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -30,5 +32,4 @@ const PostPage = async () => {
     </div>
   );
 };
-
 export default PostPage;
