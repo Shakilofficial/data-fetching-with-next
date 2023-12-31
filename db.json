@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Top 5 Destinations for a Serene Winter Escape",
+      "description": "Seeking tranquility amidst breathtaking landscapes? Explore these peaceful retreats for a rejuvenating winter getaway.",
+      "likesCount": 125
+    },
+    {
+      "id": 2,
+      "title": "The Art of Minimalist Photography: Capturing Essence in Simplicity",
+      "description": "Discover the power of minimalism in photography to create stunning images that evoke emotion and capture the essence of a scene.",
+      "likesCount": 98
+    },
+    {
+      "id": 3,
+      "title": "5 Tips for Crafting Engaging Social Media Posts that Captivate Your Audience",
+      "description": "Learn how to craft compelling social media content that resonates with your followers and drives engagement.",
+      "likesCount": 76
+    },
+    {
+      "id": 4,
+      "title": "Exploring the Culinary Delights of Tangail: A Gastronomic Journey Through Local Flavors",
+      "description": "Embark on a flavorful journey through Tangail's rich culinary heritage, savoring authentic dishes and discovering hidden gems.",
+      "likesCount": 54
+    },
+    {
+      "id": 5,
+      "title": "Unveiling the Secrets of the Universe: A Beginner's Guide to Astronomy",
+      "description": "Delve into the wonders of the cosmos and uncover the mysteries of the universe with this beginner-friendly guide to astronomy.",
+      "likesCount": 42
+    },
+    {
+      "id": 6,
+      "title": "The Power of Mindfulness: Reconnecting with the Present Moment",
+      "description": "Harness the transformative power of mindfulness to cultivate inner peace, enhance focus, and embrace the present moment.",
+      "likesCount": 35
+    }
+  ]
+}
